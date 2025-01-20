@@ -1,3 +1,4 @@
+
 import tensorflow as tf
 import streamlit as st
 import numpy as np
@@ -32,5 +33,6 @@ if uploaded_file is not None:
 
         st.success(f"num is : {predicted_digit}")
         # st.write(f"احتمالات كل الأرقام: {predictions}")
+
 
 
